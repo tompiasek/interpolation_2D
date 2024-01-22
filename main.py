@@ -47,17 +47,17 @@ if __name__ == "__main__":
     # img_x1_5 = change_img_size(image, 1.5)
     # img_x0_4 = change_img_size(image, 0.4)
     # img_rgb_x1_5 = scaling.change_img_size(img_rgb, 1.5)
-
-    """ PLOTTING """
-
-    _, ax3 = plt.subplots(1, 2, figsize=(12, 8))
-
+    #
+    # PLOTTING
+    #
+    # _, ax3 = plt.subplots(1, 2, figsize=(12, 8))
+    #
     # ax3[0].imshow(img_rgb)
     # ax3[0].set_title("Original image (" + str(img_rgb.shape) + "px")
     # ax3[1].imshow(img_rgb_x1_5)
     # ax3[1].set_title("Float scaling [RGB] (" + str(img_rgb_x1_5.shape) + "px")
     # sk.io.imsave("img/panda_x1_5.jpg", img_rgb_x1_5.astype(np.uint8))
-
+    #
     # ax3[1].imshow(img_x1_5, cmap="gray")
     # ax3[1].set_title("x1.5 image (" + str(img_x1_5.shape) + "px)")
     #
